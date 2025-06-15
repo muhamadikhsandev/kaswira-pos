@@ -1,0 +1,3 @@
+*.sqlite*
+# Abaikan folder vendor (biasanya composer dependencies)
+vendor/

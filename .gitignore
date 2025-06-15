@@ -1,0 +1,31 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+npm-debug.log
+yarn-error.log
+*.sqlite
+
+# Laravel Octane (jika digunakan)
+*.bench.php
+
+# Cache dan log
+/storage/framework/*
+!/storage/framework/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# IDE dan editor
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Sistem OS
+.DS_Store
+Thumbs.db
